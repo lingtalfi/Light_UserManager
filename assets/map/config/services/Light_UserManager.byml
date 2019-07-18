@@ -16,4 +16,4 @@ user_manager:
                         url: /plugins/Light_Kit_Admin/zeroadmin/img/avatars/photo-1.jpg
                     setPseudo:
                         pseudo: Ling
-                    connect: []
+#                    connect: []
