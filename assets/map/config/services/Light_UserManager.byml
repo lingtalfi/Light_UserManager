@@ -6,7 +6,7 @@ user_manager:
 #                instance: Ling\Light_User\AdamLightUser
     instance: Ling\Light_UserManager\UserManager\WebsiteUserManager
     methods:
-        setUser:
+        setUserOnce:
             user:
                 instance: Ling\Light_User\WebsiteLightUser
                 methods:
@@ -16,4 +16,4 @@ user_manager:
                         url: /plugins/Light_Kit_Admin/zeroadmin/img/avatars/photo-1.jpg
                     setPseudo:
                         pseudo: Ling
-#                    connect: []
+                    connect: []

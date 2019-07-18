@@ -63,6 +63,10 @@ user_manager:
 History Log
 =============
 
+- 1.2.0 -- 2019-07-18
+
+    - add WebsiteUserManager.setUserOnce method
+    
 - 1.1.1 -- 2019-07-18
 
     - update docTools documentation, add links to source code for classes and methods
