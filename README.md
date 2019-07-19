@@ -59,10 +59,20 @@ user_manager:
 ```
                 
                 
+Related
+=========
+- [Light_User](https://github.com/lingtalfi/Light_User/), an user representation for the Light framework 
+- [Light_UserDatabase](https://github.com/lingtalfi/Light_UserDatabase), an user database for the Light framework 
+
+
 
 History Log
 =============
 
+- 1.2.1 -- 2019-07-19
+
+    - update documentation, add related section
+    
 - 1.2.0 -- 2019-07-18
 
     - add WebsiteUserManager.setUserOnce method
