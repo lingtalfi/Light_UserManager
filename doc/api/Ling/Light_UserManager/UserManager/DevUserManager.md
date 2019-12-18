@@ -4,7 +4,7 @@
 
 The DevUserManager class
 ================
-2019-05-10 --> 2019-07-19
+2019-05-10 --> 2019-12-18
 
 
 
@@ -71,4 +71,4 @@ See the source code of [Ling\Light_UserManager\UserManager\DevUserManager](https
 
 SeeAlso
 ==============
-Previous class: [LightUserManagerException](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Exception/LightUserManagerException.md)<br>Next class: [LightUserManagerInterface](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/LightUserManagerInterface.md)<br>
+Previous class: [LightUserManagerService](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService.md)<br>Next class: [LightUserManagerInterface](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/LightUserManagerInterface.md)<br>

@@ -69,6 +69,10 @@ Related
 History Log
 =============
 
+- 1.3.0 -- 2019-12-18
+
+    - add LightUserManagerService class
+    
 - 1.2.1 -- 2019-07-19
 
     - update documentation, add related section
