@@ -94,10 +94,10 @@ class WebsiteUserManager implements LightUserManagerInterface
      * - the user is not a LightWebsiteUser
      *
      *
-     * @return WebsiteUserManager
+     * @return LightWebsiteUser
      * @throws \Exception
      */
-    public function getValidWebsiteUser(): WebsiteUserManager
+    public function getValidWebsiteUser(): LightWebsiteUser
     {
         $user = $this->getUser();
 
