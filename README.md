@@ -1,6 +1,6 @@
 Light_UserManager
 ===========
-2019-05-10 -> 2021-03-15
+2019-05-10 -> 2021-06-14
 
 
 
@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.5.10 -- 2021-06-14
+
+    - add AnyUserManager class
+  
 - 1.5.9 -- 2021-05-31
 
     - Removing trailing plus in lpi-deps file (to work with Light_PlanetInstaller:2.0.0 api
