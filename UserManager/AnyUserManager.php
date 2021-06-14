@@ -4,6 +4,7 @@
 namespace Ling\Light_UserManager\UserManager;
 
 
+use Ling\Light_User\LightOpenUser;
 use Ling\Light_User\LightUserInterface;
 use Ling\Light_User\LightWebsiteUser;
 use Ling\Light_User\RefreshableLightUserInterface;
@@ -130,6 +131,21 @@ class AnyUserManager implements LightUserManagerInterface
     }
 
 
+
+    /**
+     * Returns an open user.
+     *
+     * @return LightOpenUser
+     * @throws LightUserManagerException
+     */
+    public function getOpenUser(): LightOpenUser
+    {
+        $user = $this->getUser();
+        if (false === $user instanceof LightOpenUser) {
+            throw new LightUserManagerException("The user is not an instance of LightOpenUser.");
+        }
+        return $user;
+    }
 
 
 

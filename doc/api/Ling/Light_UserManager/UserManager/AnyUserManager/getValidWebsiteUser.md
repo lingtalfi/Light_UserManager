@@ -53,7 +53,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L119-L130)
+See the source code for method [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L120-L131)
 
 
 See Also
@@ -61,5 +61,5 @@ See Also
 
 The [AnyUserManager](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager.md) class.
 
-Previous method: [setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserClass.md)<br>Next method: [setUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUser.md)<br>
+Previous method: [setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserClass.md)<br>Next method: [getOpenUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getOpenUser.md)<br>
 

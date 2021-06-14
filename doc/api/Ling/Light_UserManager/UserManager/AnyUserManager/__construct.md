@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L50-L54)
+See the source code for method [AnyUserManager::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L51-L55)
 
 
 See Also

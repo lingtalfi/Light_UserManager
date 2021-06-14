@@ -52,7 +52,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::setUserOnce](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L165-L171)
+See the source code for method [AnyUserManager::setUserOnce](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L181-L187)
 
 
 See Also

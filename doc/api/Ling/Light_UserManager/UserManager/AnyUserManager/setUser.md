@@ -51,7 +51,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::setUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L149-L153)
+See the source code for method [AnyUserManager::setUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L165-L169)
 
 
 See Also
@@ -59,5 +59,5 @@ See Also
 
 The [AnyUserManager](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager.md) class.
 
-Previous method: [getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getValidWebsiteUser.md)<br>Next method: [setUserOnce](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserOnce.md)<br>
+Previous method: [getOpenUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getOpenUser.md)<br>Next method: [setUserOnce](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserOnce.md)<br>
 

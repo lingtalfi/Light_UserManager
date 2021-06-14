@@ -88,6 +88,10 @@ Related
 History Log
 =============
 
+- 1.5.11 -- 2021-06-14
+
+    - add AnyUserManager->getOpenUser method
+  
 - 1.5.10 -- 2021-06-14
 
     - add AnyUserManager class
