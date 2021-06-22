@@ -66,6 +66,7 @@ class AnyUserManager implements LightUserManagerInterface
     {
         $this->startPhpSession();
 
+
         if (array_key_exists($this->sessionKey, $_SESSION)) {
             $sessionUser = $_SESSION[$this->sessionKey];
         } else {

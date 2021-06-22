@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::startPhpSession](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L198-L203)
+See the source code for method [AnyUserManager::startPhpSession](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L199-L204)
 
 
 See Also

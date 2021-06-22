@@ -1,6 +1,6 @@
 Light_UserManager
 ===========
-2019-05-10 -> 2021-06-14
+2019-05-10 -> 2021-06-22
 
 
 
@@ -62,7 +62,9 @@ user_manager:
 #            user:
 #                instance: Ling\Light_User\AdamLightUser
     instance: Ling\Light_UserManager\Service\LightUserManagerService
-    methods: []
+    methods:
+        setUserClass:
+            userClass: ${user_manager_vars.userClass}
 #        setUser:
 #            user:
 #                instance: Ling\Light_User\LightWebsiteUser
@@ -75,6 +77,11 @@ user_manager:
 #                        pseudo: Ling
 #                    connect: []
 #                    disconnect: []
+
+
+
+user_manager_vars:
+    userClass: Ling\Light_User\LightWebsiteUser
 ```
                 
                 
@@ -88,6 +95,10 @@ Related
 History Log
 =============
 
+- 1.5.12 -- 2021-06-22
+
+    - add userClass in service vars
+  
 - 1.5.11 -- 2021-06-14
 
     - add AnyUserManager->getOpenUser method

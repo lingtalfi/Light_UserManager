@@ -53,7 +53,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L120-L131)
+See the source code for method [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L121-L132)
 
 
 See Also
