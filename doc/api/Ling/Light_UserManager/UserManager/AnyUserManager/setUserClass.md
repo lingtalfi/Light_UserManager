@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L106-L109)
+See the source code for method [AnyUserManager::setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L108-L111)
 
 
 See Also

@@ -95,6 +95,10 @@ Related
 History Log
 =============
 
+- 1.5.13 -- 2021-06-22
+
+    - fix AnyUserManager->getUser never invalidating user
+  
 - 1.5.12 -- 2021-06-22
 
     - add userClass in service vars

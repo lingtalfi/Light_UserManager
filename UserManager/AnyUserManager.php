@@ -76,7 +76,9 @@ class AnyUserManager implements LightUserManagerInterface
 
 
         if ($sessionUser instanceof RefreshableLightUserInterface) {
-            $sessionUser->refresh();
+            if (true === $sessionUser->isValid()) {
+                $sessionUser->refresh();
+            }
         }
 
         return $sessionUser;
@@ -130,7 +132,6 @@ class AnyUserManager implements LightUserManagerInterface
         }
         return $user;
     }
-
 
 
     /**

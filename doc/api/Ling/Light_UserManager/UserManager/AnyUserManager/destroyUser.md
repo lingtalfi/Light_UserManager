@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::destroyUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L89-L93)
+See the source code for method [AnyUserManager::destroyUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L91-L95)
 
 
 See Also

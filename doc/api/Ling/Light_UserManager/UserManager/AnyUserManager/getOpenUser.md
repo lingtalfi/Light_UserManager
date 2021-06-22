@@ -51,7 +51,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [AnyUserManager::getOpenUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L142-L149)
+See the source code for method [AnyUserManager::getOpenUser](https://github.com/lingtalfi/Light_UserManager/blob/master/UserManager/AnyUserManager.php#L143-L150)
 
 
 See Also
