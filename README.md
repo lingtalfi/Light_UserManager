@@ -95,6 +95,10 @@ Related
 History Log
 =============
 
+- 1.5.15 -- 2021-06-24
+
+    - fix function typo in service, addPrepareUseCallback -> addPrepareUserCallback 
+  
 - 1.5.14 -- 2021-06-24
 
     - add service->addPrepareUserCallback method

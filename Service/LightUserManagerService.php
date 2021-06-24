@@ -41,7 +41,7 @@ class LightUserManagerService extends AnyUserManager
      *
      * @param callable $callback
      */
-    public function addPrepareUseCallback(callable $callback)
+    public function addPrepareUserCallback(callable $callback)
     {
         $this->prepareUserCallbacks[] = $callback;
     }
