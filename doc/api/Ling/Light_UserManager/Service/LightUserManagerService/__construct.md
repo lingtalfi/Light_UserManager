@@ -46,7 +46,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightUserManagerService::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L32-L36)
+See the source code for method [LightUserManagerService::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L47-L52)
 
 
 See Also

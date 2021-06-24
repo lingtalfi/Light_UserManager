@@ -49,7 +49,7 @@ Returns void.
 
 Source Code
 ===========
-See the source code for method [LightUserManagerService::addPrepareUserCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L44-L47)
+See the source code for method [LightUserManagerService::addPrepareUserCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L60-L63)
 
 
 See Also

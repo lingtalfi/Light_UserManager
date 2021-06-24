@@ -4,6 +4,7 @@
 namespace Ling\Light_UserManager\Service;
 
 use Ling\Light_User\LightUserInterface;
+use Ling\Light_User\RefreshableLightUserInterface;
 use Ling\Light_UserManager\UserManager\AnyUserManager;
 
 /**
@@ -11,6 +12,20 @@ use Ling\Light_UserManager\UserManager\AnyUserManager;
  */
 class LightUserManagerService extends AnyUserManager
 {
+
+
+    /**
+     * Sets the session duration for all users at once, if they are refreshable (i.e. non refreshable users generally don't have session duration property).
+     *
+     * Note: if null, we do nothing, so each refreshable user keeps its own session duration.
+     *
+     * The default is null.
+     *
+     *
+     * @var int | null
+     */
+    private int|null $sessionDuration;
+
 
     /**
      * This property holds the prepareUserCallbacks for this instance.
@@ -33,6 +48,7 @@ class LightUserManagerService extends AnyUserManager
     {
         parent::__construct();
         $this->prepareUserCallbacks = [];
+        $this->sessionDuration = null;
     }
 
 
@@ -53,11 +69,30 @@ class LightUserManagerService extends AnyUserManager
     public function getUser(): LightUserInterface
     {
         $user = parent::getUser();
+
+
+        if (
+            null !== $this->sessionDuration &&
+            true === $user instanceof RefreshableLightUserInterface
+        ) {
+            $user->setSessionDuration($this->sessionDuration);
+        }
+
+
         foreach ($this->prepareUserCallbacks as $cb) {
             $cb($user);
         }
         return $user;
     }
 
+    /**
+     * Sets the sessionDuration.
+     *
+     * @param int $sessionDuration
+     */
+    public function setSessionDuration(int $sessionDuration)
+    {
+        $this->sessionDuration = $sessionDuration;
+    }
 
 }

@@ -51,7 +51,7 @@ Exceptions thrown
 
 Source Code
 ===========
-See the source code for method [LightUserManagerService::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L53-L60)
+See the source code for method [LightUserManagerService::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/Service/LightUserManagerService.php#L69-L86)
 
 
 See Also
@@ -59,5 +59,5 @@ See Also
 
 The [LightUserManagerService](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService.md) class.
 
-Previous method: [addPrepareUserCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/addPrepareUserCallback.md)<br>
+Previous method: [addPrepareUserCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/addPrepareUserCallback.md)<br>Next method: [setSessionDuration](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/setSessionDuration.md)<br>
 
