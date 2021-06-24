@@ -1,6 +1,6 @@
 Ling/Light_UserManager
 ================
-2019-05-10 --> 2021-06-22
+2019-05-10 --> 2021-06-24
 
 
 
@@ -10,8 +10,9 @@ Table of contents
 
 - [LightUserManagerException](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Exception/LightUserManagerException.md) &ndash; The LightUserManagerException class.
 - [LightUserManagerService](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService.md) &ndash; The LightUserManagerService class.
-    - [AnyUserManager::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/__construct.md) &ndash; Builds the WebsiteUserManager instance.
-    - [AnyUserManager::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getUser.md) &ndash; Returns a light user instance, according to the settings of this instance.
+    - [LightUserManagerService::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/__construct.md) &ndash; Builds the LightUserManagerService instance.
+    - [LightUserManagerService::addPrepareUseCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/addPrepareUseCallback.md) &ndash; Adds a prepareUser callback.
+    - [LightUserManagerService::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/getUser.md) &ndash; Returns a light user instance, according to the settings of this instance.
     - [AnyUserManager::destroyUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/destroyUser.md) &ndash; Destroys the current user, according to the settings of this instance.
     - [AnyUserManager::setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserClass.md) &ndash; Sets the userClass.
     - [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getValidWebsiteUser.md) &ndash; The getValidWebsiteUser method

@@ -4,7 +4,7 @@
 
 The LightUserManagerService class
 ================
-2019-05-10 --> 2021-06-22
+2019-05-10 --> 2021-06-24
 
 
 
@@ -24,9 +24,15 @@ Class synopsis
 
 class <span class="pl-k">LightUserManagerService</span> extends [AnyUserManager](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager.md) implements [LightUserManagerInterface](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/LightUserManagerInterface.md) {
 
+- Properties
+    - private array [$prepareUserCallbacks](#property-prepareUserCallbacks) ;
+
+- Methods
+    - public [__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/__construct.md)() : void
+    - public [addPrepareUseCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/addPrepareUseCallback.md)(callable $callback) : void
+    - public [getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/getUser.md)() : [LightUserInterface](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightUserInterface.md)
+
 - Inherited methods
-    - public [AnyUserManager::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/__construct.md)() : void
-    - public [AnyUserManager::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getUser.md)() : [LightUserInterface](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightUserInterface.md)
     - public [AnyUserManager::destroyUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/destroyUser.md)() : void
     - public [AnyUserManager::setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserClass.md)(string $userClass) : void
     - public [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getValidWebsiteUser.md)() : [LightWebsiteUser](https://github.com/lingtalfi/Light_User/blob/master/doc/api/Ling/Light_User/LightWebsiteUser.md)
@@ -39,13 +45,29 @@ class <span class="pl-k">LightUserManagerService</span> extends [AnyUserManager]
 
 
 
+Properties
+=============
+
+- <span id="property-prepareUserCallbacks"><b>prepareUserCallbacks</b></span>
+
+    This property holds the prepareUserCallbacks for this instance.
+    Those callbacks are executed at the end of the getUser method.
+    
+    Thus, each callback gives you the opportunity to prepare the user.
+    For instance, you could connect the user automatically if he's got a valid remember_me token.
+    
+    Each callback takes the user instance as its sole argument.
+    
+    
+
 
 
 Methods
 ==============
 
-- [AnyUserManager::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/__construct.md) &ndash; Builds the WebsiteUserManager instance.
-- [AnyUserManager::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getUser.md) &ndash; Returns a light user instance, according to the settings of this instance.
+- [LightUserManagerService::__construct](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/__construct.md) &ndash; Builds the LightUserManagerService instance.
+- [LightUserManagerService::addPrepareUseCallback](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/addPrepareUseCallback.md) &ndash; Adds a prepareUser callback.
+- [LightUserManagerService::getUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/Service/LightUserManagerService/getUser.md) &ndash; Returns a light user instance, according to the settings of this instance.
 - [AnyUserManager::destroyUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/destroyUser.md) &ndash; Destroys the current user, according to the settings of this instance.
 - [AnyUserManager::setUserClass](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/setUserClass.md) &ndash; Sets the userClass.
 - [AnyUserManager::getValidWebsiteUser](https://github.com/lingtalfi/Light_UserManager/blob/master/doc/api/Ling/Light_UserManager/UserManager/AnyUserManager/getValidWebsiteUser.md) &ndash; 

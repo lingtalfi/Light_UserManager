@@ -1,6 +1,6 @@
 Light_UserManager
 ===========
-2019-05-10 -> 2021-06-22
+2019-05-10 -> 2021-06-24
 
 
 
@@ -95,6 +95,10 @@ Related
 History Log
 =============
 
+- 1.5.14 -- 2021-06-24
+
+    - add service->addPrepareUserCallback method
+  
 - 1.5.13 -- 2021-06-22
 
     - fix AnyUserManager->getUser never invalidating user
